@@ -1,0 +1,32 @@
+{
+  "name": "ghost-alicloud-store",
+  "version": "1.0.0",
+  "description": "AlibabaCloud OSS store for Ghost blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minwe/ghost-alicloud-store.git"
+  },
+  "keywords": [
+    "Ghost",
+    "Alibabacloud",
+    "aliyun",
+    "aliyun oss",
+    "ghost-store"
+  ],
+  "author": "minwe <hegfirose@gmail.com> (http://csspod.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minwe/ghost-alicloud-store/issues"
+  },
+  "homepage": "https://github.com/Minwe/ghost-alicloud-store",
+  "dependencies": {
+    "ali-oss": "~6.1.1",
+    "ghost-storage-base": "0.0.3",
+    "moment": "2.24.0",
+    "unidecode": "^0.1.8"
+  }
+}
